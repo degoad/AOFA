@@ -11,7 +11,7 @@ body {margin:0;}
   color: white;
   font-size: 20px;
 }
- 
+
 nav{
   background: black;
 }
@@ -48,8 +48,34 @@ nav ul li a {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
 .color{
   color: green;
+}
+.contact{
+  color: black;
+}
+.contact .contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact h1{
+  text-align: center;
+}
+.contact label {
+  display: block;
+  font-weight: bold;
+}
+.contact input, .contact textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: solid lightgray 1px;
 }
 footer{
   background: black;
